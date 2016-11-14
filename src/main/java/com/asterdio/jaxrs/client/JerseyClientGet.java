@@ -27,7 +27,7 @@ public class JerseyClientGet
 
             String output = response.getEntity(String.class);
 
-            System.out.println("Output from Server \n");
+            System.out.println("Output from Server.... \n");
             System.out.println(output);
 
         } catch (Exception e) {
